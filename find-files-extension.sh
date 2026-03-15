@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find . -type f -name "*.txt" | rev | cut -d "/" -f 1 | rev | cut -d "." -f 1
+
